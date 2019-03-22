@@ -12,4 +12,29 @@
 
     </style>
 
+    <!-- TextView da tela cadastro_atividade_layout -->
+    <style name="TextView_cadastro_atividade_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Large</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:background">@color/primaryLightColor</item>
+    </style>
+
+    <!-- RadioGroup da tela cadastro_atividade_layout -->
+    <style name="RadioGroup_cadastro_atividade_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_margin">16dp</item>
+    </style>
+
+    <!-- RadioGroup da tela cadastro_atividade_layout -->
+    <style name="RadioButton_cadastro_atividade_layout">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+
+    </style>
+
 </resources>
