@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Treinamento dos Auxiliares</string>
+    <string name="op_1">Regular</string>
+    <string name="op_2">Bom</string>
+    <string name="op_3">Ótimo</string>
+    <string name="atividade_1">Comunicação</string>
+    <string name="atividade_2">Recursos da Locomotiva</string>
+    <string name="atividade_3">Perfil de Linha</string>
+    <string name="atividade_4">Sinalização</string>
+    <string name="atividade_5">Técnicas de Condução</string>
+    <string name="atividade_6">MAN Terminal de Cliente</string>
+    <string name="atividade_7">MAN Pátios/trecho</string>
+    <string name="atividade_8">Procedimentos Operacionais</string>
+    <string name="atividade_9">LOCOTROL</string>
+    <string name="atividade_10">CBTC/TWE</string>
+</resources>
