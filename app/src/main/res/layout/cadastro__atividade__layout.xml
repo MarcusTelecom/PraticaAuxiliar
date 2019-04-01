@@ -15,6 +15,7 @@
             android:text="@string/atividade_1"
             style="@style/TextView_cadastro_atividade_layout"/>
         <RadioGroup
+            android:id="@+id/radioGroup_atv_1"
             style="@style/RadioGroup_cadastro_atividade_layout">
 
             <android.support.v7.widget.AppCompatRadioButton
@@ -35,6 +36,7 @@
             android:text="@string/atividade_2"
             style="@style/TextView_cadastro_atividade_layout"/>
         <RadioGroup
+            android:id="@+id/radioGroup_atv_2"
             style="@style/RadioGroup_cadastro_atividade_layout">
 
             <android.support.v7.widget.AppCompatRadioButton
@@ -55,6 +57,7 @@
             android:text="@string/atividade_3"
             style="@style/TextView_cadastro_atividade_layout"/>
         <RadioGroup
+            android:id="@+id/radioGroup_atv_3"
             style="@style/RadioGroup_cadastro_atividade_layout">
 
             <android.support.v7.widget.AppCompatRadioButton
@@ -75,6 +78,7 @@
             android:text="@string/atividade_4"
             style="@style/TextView_cadastro_atividade_layout"/>
         <RadioGroup
+            android:id="@+id/radioGroup_atv_4"
             style="@style/RadioGroup_cadastro_atividade_layout">
 
             <android.support.v7.widget.AppCompatRadioButton
@@ -95,6 +99,7 @@
             android:text="@string/atividade_5"
             style="@style/TextView_cadastro_atividade_layout"/>
         <RadioGroup
+            android:id="@+id/radioGroup_atv_5"
             style="@style/RadioGroup_cadastro_atividade_layout">
 
             <android.support.v7.widget.AppCompatRadioButton
@@ -115,6 +120,7 @@
             android:text="@string/atividade_6"
             style="@style/TextView_cadastro_atividade_layout"/>
         <RadioGroup
+            android:id="@+id/radioGroup_atv_6"
             style="@style/RadioGroup_cadastro_atividade_layout">
 
             <android.support.v7.widget.AppCompatRadioButton
@@ -135,6 +141,7 @@
             android:text="@string/atividade_7"
             style="@style/TextView_cadastro_atividade_layout"/>
         <RadioGroup
+            android:id="@+id/radioGroup_atv_7"
             style="@style/RadioGroup_cadastro_atividade_layout">
 
             <android.support.v7.widget.AppCompatRadioButton
@@ -155,6 +162,7 @@
             android:text="@string/atividade_8"
             style="@style/TextView_cadastro_atividade_layout"/>
         <RadioGroup
+            android:id="@+id/radioGroup_atv_8"
             style="@style/RadioGroup_cadastro_atividade_layout">
 
             <android.support.v7.widget.AppCompatRadioButton
@@ -175,6 +183,7 @@
             android:text="@string/atividade_9"
             style="@style/TextView_cadastro_atividade_layout"/>
         <RadioGroup
+            android:id="@+id/radioGroup_atv_9"
             style="@style/RadioGroup_cadastro_atividade_layout">
 
             <android.support.v7.widget.AppCompatRadioButton
@@ -195,6 +204,7 @@
             android:text="@string/atividade_10"
             style="@style/TextView_cadastro_atividade_layout"/>
         <RadioGroup
+            android:id="@+id/radioGroup_atv_10"
             style="@style/RadioGroup_cadastro_atividade_layout">
 
             <android.support.v7.widget.AppCompatRadioButton
@@ -210,6 +220,13 @@
                 style="@style/RadioButton_cadastro_atividade_layout"/>
 
         </RadioGroup>
+
+        <Button
+            android:id="@+id/bt_salvar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bt_salvar"
+            android:onClick="salvar"/>
 
     </LinearLayout>
 
